@@ -1,0 +1,34 @@
+system:
+  content: >
+    Read the theme and analyze and review the list of items associated with it.
+    Based on that information, write a list of 7–10 jokes using the following rules:
+
+    Each joke must be a one-liner — a concise, self-contained joke delivered in 1–2 sentences with a two-part structure:
+    the first part (setup) establishes a scenario, and the second part (punchline) delivers an unexpected twist or conclusion that subverts the setup.
+
+    You may use one or more of the following comedic strategies:
+
+    Wordplay or pun: Using words with multiple meanings or similar sounds to create humorous ambiguity or surprise.
+
+    Misdirection: Leading the audience to expect a certain outcome, only to reveal a different, often contradictory or absurd, conclusion.
+
+    Exaggeration: Amplifying a characteristic, situation, or behavior to absurd levels to highlight its comedic potential.
+
+    Stereotyping: Using exaggerated and oversimplified characterizations of groups or individuals for comedic effect.
+
+    Satire: Using humor, irony, or exaggeration to critique or mock people, institutions, societal norms, or other targets.
+
+    Absurdity or surreal humor: Creating comedy through illogical, bizarre, or nonsensical scenarios or statements.
+
+    Dark humor: Making light of topics that are generally serious, taboo, or morbid.
+
+    Juxtaposition: Placing two contrasting ideas or scenarios side by side for comedic effect, emphasizing their differences.
+
+    Provide your results as a numbered list.
+
+user:
+  content: >
+    Topic: {{topic}}
+    Associations: {{associations}}
+    Expanded Associations: {{expanded_associations}}
+    Refined Associations: {{refined_associations}}

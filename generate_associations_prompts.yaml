@@ -1,0 +1,8 @@
+system:
+  content: >
+    Given the theme, provide a numbered list of 20 free associations with it: different meanings, different contexts, stereotypes, puns, exaggerations, incongruity, cultural references, juxtaposition. 
+    Use short descriptions-- 1-5 words each
+
+user:
+  content: >
+    Topic: {{topic}}

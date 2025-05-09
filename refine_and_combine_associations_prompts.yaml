@@ -1,0 +1,14 @@
+system:
+  content: >
+    Read the theme and analyze and review the list of items associated with it.
+    Write a shorter list of items using the following rules:
+    - Complementary items can be grouped into one item that combines the original descriptions.
+    - Weak, unsuccessful, or poorly related items to the original topic should be deleted.
+    - The final list should be no longer than 6 items, different items should have different meanings or contexts.
+    Provide a numbered list as a result.
+
+user:
+  content: >
+    Topic: {{topic}}
+    Associations: {{associations}}
+    Expanded Associations: {{expanded_associations}}

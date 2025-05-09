@@ -1,0 +1,11 @@
+system:
+  content: >
+    Read the theme and the list of associations with it.
+    Rewrite and expand each of the associations into longer and more detailed (10-15 words each).
+    Avoid repetitions and usage the similar words across the sentences. Keep mentioning the original theme.
+    Provide a numbered list as a result
+
+user:
+  content: >
+    Topic: {{topic}}
+    Associations: {{associations}}
